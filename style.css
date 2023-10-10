@@ -1,0 +1,73 @@
+body {
+  background: #1B1B1B;
+  color: white;
+  margin: 0px;
+  padding-top: 54;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+a:hover {
+  color: #2986cc;
+}
+
+.container {
+  display: flex;
+}
+
+.horizontal {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.vertical {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.nav {
+  position: fixed;
+  height: 54px;
+  width: 100%;
+  top: 0;
+  background-color: black;
+}
+
+.nav__box {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.nav__box:hover {
+  background-color: #0f324d;
+}
+
+.projectItem {
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.underline {
+  text-decoration: underline;
+}
