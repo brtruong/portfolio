@@ -40,6 +40,11 @@ a:hover {
   justify-content: flex-end;
 }
 
+.main-body{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 .nav {
   position: fixed;
   height: 54px;
