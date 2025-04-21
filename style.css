@@ -1,5 +1,5 @@
 body {
-  background: #1B1B1B;
+  background: #1b1b1b;
   color: white;
   margin: 0px;
   padding-top: 54;
@@ -40,9 +40,10 @@ a:hover {
   justify-content: flex-end;
 }
 
-.main-body{
+.main-body {
   padding-left: 200px;
   padding-right: 200px;
+  padding-top: 40px;
 }
 
 .nav {
@@ -75,4 +76,8 @@ a:hover {
 
 .underline {
   text-decoration: underline;
+}
+
+.gap-40 {
+  gap: 40px;
 }
